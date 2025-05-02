@@ -1,10 +1,10 @@
 package org.example.lesson_1
 
 fun main() {
-    var countOrders: Int = 75
+    val countOrders: Int = 75
     val thankMessage: String = "Спасибо, что приобрели товар именно у нас!"
 
-    println("Количество заказов: $countOrders." + " $thankMessage")
+    println("Количество заказов: $countOrders. $thankMessage")
 
     var countEmploees: Int = 2000
 //    println("Количество участников: $countEmploees")
