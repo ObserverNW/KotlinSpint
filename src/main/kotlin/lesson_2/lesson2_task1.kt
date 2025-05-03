@@ -9,5 +9,6 @@ fun main() {
     val orderStudents: Int = 4
 
     val averageNum: Float = (firstMark + secondMark + thirdMark + fourthMark) / orderStudents.toFloat()
+
     print(averageNum)
 }
