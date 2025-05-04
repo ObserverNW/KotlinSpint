@@ -1,7 +1,6 @@
 package org.example.lesson_2
 
 fun main() {
-
     val crystalMining: Int = 7
     val ironMining: Int = 11
     val miningBuff: Int = 20
