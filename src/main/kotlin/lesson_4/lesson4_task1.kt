@@ -7,4 +7,5 @@ fun main() {
     println("[Доступность столиков на сегодня: ${ALL_TABLE > bookingTableToday}]," +
             "\n[Доступность столиков на завтра: ${ALL_TABLE  > bookingTableTomorrow}].")
 }
+
 const val ALL_TABLE: Int = 13
