@@ -1,6 +1,7 @@
 package org.example.lesson_4
 
 fun main() {
+
     val minWeightAverage: Int = 35
     val maxWeightAverage: Int = 100
     val maxVolumeAverage: Int = 100
