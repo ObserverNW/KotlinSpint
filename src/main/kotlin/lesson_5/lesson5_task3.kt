@@ -6,12 +6,12 @@ fun main() {
     println("Введите второе число: ")
     val secondNumber = readln().toInt()
 
-    val resultText = if ((firstNumber == FIRST_NUMBER || firstNumber == SECOND_NUMBER) &&
-        (secondNumber == FIRST_NUMBER || secondNumber == SECOND_NUMBER))
+    val resultText = if ((firstNumber == FIRST_NUMBER_1 || firstNumber == SECOND_NUMBER_1) &&
+        (secondNumber == FIRST_NUMBER_1 || secondNumber == SECOND_NUMBER_1))
     {
         "Поздравляем! Вы выиграли главный приз!"
-    } else if ((firstNumber == FIRST_NUMBER || firstNumber == SECOND_NUMBER) ||
-        (secondNumber == FIRST_NUMBER || secondNumber == SECOND_NUMBER))
+    } else if ((firstNumber == FIRST_NUMBER_1 || firstNumber == SECOND_NUMBER_1) ||
+        (secondNumber == FIRST_NUMBER_1 || secondNumber == SECOND_NUMBER_1))
     {
         "Вы выиграли утешительный приз!"
     } else {
@@ -19,6 +19,5 @@ fun main() {
     }
     println(resultText)
 }
-
-const val FIRST_NUMBER: Int = 40
-const val SECOND_NUMBER: Int = 41
+const val FIRST_NUMBER_1: Int = 40
+const val SECOND_NUMBER_1: Int = 41
