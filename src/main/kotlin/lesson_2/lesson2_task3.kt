@@ -7,8 +7,10 @@ fun main() {
 
     val allMinutes: Int = startMinutes + minutesInWay
 
-    val finishHours: Int = startHours + (allMinutes / 60)
-    val finishMinutes: Int = allMinutes % 60
+    val finishHours: Int = startHours + (allMinutes / SEC_IN_MIN)
+    val finishMinutes: Int = allMinutes % SEC_IN_MIN
 
     println("Поезд прибудет в $finishHours:$finishMinutes")
 }
+
+const val SEC_IN_MIN: Int = 60
